@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">
+  <doc name="certificate" contains="originalVersion">
+    <meta>
+      <identification source="#issuerSoftware">
+        <FRBRWork>
+          <FRBRthis eId="frbrwork__frbrthis" value="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/main"/>
+          <FRBRuri eId="frbrwork__frbruri" value="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi"/>
+          <FRBRdate eId="frbrwork__frbrdate_1" date="2022-06-09" name="ADP_byCOM"/>
+          <FRBRauthor eId="frbrwork__frbrauthor_1" href="#iidIssuer" as="#author"/>
+          <componentInfo>
+            <componentData/>
+            <componentData eId="wmain" href="#emain" name="main" showAs="Main document"/>
+            <componentData eId="wdiddoc" href="#ediddoc" name="diddoc" showAs="DID Document"/>
+          </componentInfo>
+          <FRBRcountry eId="frbrwork__frbrcountry" value="eu"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis eId="frbrexpression__frbrthis" value="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@!main"/>
+          <FRBRuri eId="frbrexpression__frbruri" value="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@"/>
+          <FRBRdate eId="frbrexpression__frbrdate_1" date="2022-06-09" name="ADP_byCOM"/>
+          <FRBRauthor eId="frbrexpression__frbrauthor_1" href="#iidIssuer"/>
+          <componentInfo>
+            <componentData/>
+            <componentData eId="emain" href="#mmain" name="main" showAs="Main document"/>
+            <componentData eId="ediddoc" href="#wdiddoc" name="diddoc" showAs="DID Document"/>
+          </componentInfo>
+          <FRBRlanguage eId="frbrexpression__frbrlanguage_1" language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis eId="frbrmanifestation__frbrthis" value="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@/main.xml"/>
+          <FRBRuri eId="frbrmanifestation__frbruri" value="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@.akn"/>
+          <FRBRdate eId="frbrmanifestation__frbrdate_1" date="2022-06-09" name="instantiation"/>
+          <FRBRauthor eId="frbrmanifestation__frbrauthor_1" href="#iidIssuer" as="#author"/>
+          <componentInfo>
+            <componentData eId="msoftware" href="IntelligibleIdentity1.0.1.hashdigest.json" name="IntelligibleIdentity1.0.1" showAs="IntelligibleIdentity 1.0.1 Software"/>
+            <componentData eId="msmartcontract" href="IntelligibleIdentity.sol" name="IntelligibleIdentity" showAs="IntelligibleIdentity Smart Contract"/>
+            <componentData eId="mmain" href="main.xml" name="main" showAs="Main document"/>
+            <componentData eId="mdiddoc" href="diddoc.json" name="diddoc" showAs="DID Document"/>
+          </componentInfo>
+        </FRBRManifestation>
+      </identification>
+      <references source="#issuerSoftware">
+        <TLCReference eId="#iid" href="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@.akn" showAs="iid"/>
+        <TLCReference eId="#iidDIDDoc" href="QmQMFWT48rcx9BnBFqZQxH7Q2cDD6RGc73jzJT988wip7Y/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@/diddoc.json" showAs="iidDIDDoc"/>
+        <TLCReference eId="#iidIssuer" href="/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@.akn" showAs="iidIssuer"/>
+        <TLCReference eId="#eidas" href="/akn/eu/doc/2021-03-06/2021_281/eng@.akn" showAs="eidas"/>
+        <TLCObject eId="#iidIssuerSoftware" href="QmTJKjDUXZYB3fh4ujfVwYCHPZiRc3dnDoZkLuja8TvJcW/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@/IntelligibleIdentity1.0.1.hashdigest.json" showAs="iidIssuerSoftware"/>
+        <TLCObject eId="#nftSmartContract" href="QmdruQGEeXugWYWQ7Co5H5XjGqoitC59tDc3DLpCrCp35x/akn/eu/doc/2022-06-09/DID:NFT:oadnaoisndoiansoi/eng@/IntelligibleIdentity.sol" showAs="nftSmartContract"/>
+      </references>
+    </meta>
+    <preface eId="preface">
+      <longTitle eId="preface__longTitle_1">
+        <p>Identity issued by DID:NFT:oadnaoisndoiansoi for DID:NFT:oadnaoisndoiansoi</p>
+      </longTitle>
+    </preface>
+    <mainBody eId="mainBody">
+      <tblock eId="tblock_1">
+        <heading eId="tblock_1__heading">Identity Information</heading>
+        <p eId="tblock_1__p_1">
+          <iid>
+            <entity eId="ii_block_iid" refersTo="#iid">DID:NFT:oadnaoisndoiansoi</entity>
+          </iid>
+          <iidDIDDoc>
+            <entity eId="ii_block_iidDIDDoc" refersTo="#iidDIDDoc">diddoc.json</entity>
+          </iidDIDDoc>
+          <iidIssuer>
+            <entity eId="ii_block_iidIssuer" refersTo="#iidIssuer">DID:NFT:oadnaoisndoiansoi</entity>
+          </iidIssuer>
+          <eidas>
+            <entity eId="ii_block_eidas" refersTo="#eidas">EU COM/2021/281 final</entity>
+          </eidas>
+          <iidIssuerSoftware>
+            <entity eId="ii_block_iidIssuerSoftware" refersTo="#iidIssuerSoftware">IntelligibleIdentity1.0.1.hashdigest.json</entity>
+          </iidIssuerSoftware>
+          <nftSmartContract>
+            <entity eId="ii_block_nftSmartContract" refersTo="#nftSmartContract">IntelligibleIdentity.sol</entity>
+          </nftSmartContract>
+        </p>
+      </tblock>
+    </mainBody>
+  </doc>
+</akomaNtoso>

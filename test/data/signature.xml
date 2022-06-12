@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<NoStandardSignatureDoc>
+  <signature>
+    <iidSignatory>
+      <entity eId="signature_iidIssuer_iidSignatory" refersTo="#iidIssuer">DID:NFT:oadnaoisndoiansoi</entity>
+    </iidSignatory>
+    <digitalSignature>
+      <entity eId="signature_iidIssuer_digitalSignature">0xbb16b532790ee7b9e2356afcbf80aac2fb6e6dfb9273169f714e727117dfa78d2f82ba5a61971204841a22e7d32e890ace9bce803acb8579088f96701f2d43f601</entity>
+    </digitalSignature>
+    <timestamp eId="signature_iidIssuer_timestamp" date="1654793495251">1654793495251</timestamp>
+  </signature>
+</NoStandardSignatureDoc>
